@@ -1,0 +1,24 @@
+{
+  "name": "webdriver_project",
+  "version": "1.0.0",
+  "description": "WebDriver Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server.i": "./node_modules/.bin/selenium-standalone install",
+    "server.start": "./node_modules/.bin/selenium-standalone start",
+    "server": "server.i npm run server.start"
+  },
+  "keywords": [
+    "webdriver",
+    "test",
+    "selenium"
+  ],
+  "author": "Nataliya Okuneva",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^81.0.0",
+    "selenium-standalone": "^6.17.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
