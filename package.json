@@ -4,10 +4,9 @@
   "description": "WebDriver Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server.i": "./node_modules/.bin/selenium-standalone install",
-    "server.start": "./node_modules/.bin/selenium-standalone start",
-    "server": "server.i npm run server.start"
+    "test": "node webdriver.js",
+    "server": "./node_modules/.bin/selenium-standalone install",
+    "server.start": "./node_modules/.bin/selenium-standalone start"
   },
   "keywords": [
     "webdriver",
@@ -20,5 +19,8 @@
     "chromedriver": "^81.0.0",
     "selenium-standalone": "^6.17.0",
     "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "dependencies": {
+    "server": "^1.0.27"
   }
 }
